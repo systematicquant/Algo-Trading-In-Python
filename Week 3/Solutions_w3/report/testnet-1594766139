@@ -1,0 +1,57 @@
+
+
+####################################################################################################
+#####################################     BINANCE TRADING     #####################################
+####################################################################################################
+
+
+####################################     Generating Models     ####################################
+
+	Finish generating model for BTCUSDT - positions: BOTH
+	Finish generating model for ETHUSDT - positions: BOTH
+	Finish generating model for BCHUSDT - positions: BOTH
+	Finish generating model for BNBUSDT - positions: BOTH
+
+###################################     Start Data Streaming     ###################################
+
+	Testnet: True
+	Server Time at Start: 20-07-14 22:35:46:716
+	Local Time at Start: 20-07-14 22:35:46:502, 	Offset (local-server): -213 ms
+
+	#LONG order : 5 	#SHORT order: 5 	Order Size : 4918.87 
+
+
+Beginning Balance Info: 
+
+   accountAlias asset         balance withdrawAvailable             updateTime
+0  mYSgXqSgXqXq  USDT  98377.42562780    98377.42562780  20-07-14 22:33:56:075
+1  mYSgXqSgXqXq   BNB               0        0.00000000  20-07-14 22:33:56:075
+
+Stream updating for 30 minutes...
+['btcusdt@kline_1m', 'ethusdt@kline_1m', 'bchusdt@kline_1m', 'bnbusdt@kline_1m']
+1. BTCUSDT	20-07-14 22:35:00:000	 _o:9265.73    _h:9271.99    _l:9265.6     _c:9271.95    _v:184896.22203
+1. ETHUSDT	20-07-14 22:35:00:000	 _o:240.93     _h:240.99     _l:240.89     _c:240.97     _v:868822.43373
+1. BCHUSDT	20-07-14 22:35:00:000	 _o:228.38     _h:228.38     _l:228.38     _c:228.38     _v:0.0       
+1. BNBUSDT	20-07-14 22:35:00:000	 _o:18.082     _h:18.11      _l:18.082     _c:18.11      _v:18013.40235
+
+	FOUND Singal info: BNBUSDT Id:None  status:WAITING side:SELL type:LIMIT quantity:271.61 price:18.11 time:20-07-14 22:36:00 exits:[0.05, 0.05, 900]
+
+	Placed NEW order: 
+	Singal info: BNBUSDT Id:49313285 status:ORDERED side:SELL type:LIMIT quantity:271.61 price:18.102 TIF:GTC time:20-07-14 22:36:00 exits:[0.05, 0.05, 900]
+	Market response: Id:49313285 status:NEW side:SELL type:LIMIT quantity:271.61 price:18.102 TIF:GTC time:20-07-14 22:36:07
+
+	Set BOOKED order ACTIVE: 
+	Singal info: BNBUSDT Id:49313285 status:ACTIVE side:SELL type:LIMIT quantity:271.61 price:18.102 TIF:GTC time:20-07-14 22:36:21 exits:[0.05, 0.05, 900]
+	Market response: Id:49313285 status:FILLED side:SELL type:LIMIT quantity:271.61 price:18.102 TIF:GTC time:20-07-14 22:36:21
+2. ETHUSDT	20-07-14 22:36:00:000	 _o:240.97     _h:240.98     _l:240.89     _c:240.95     _v:490242.38319
+2. BTCUSDT	20-07-14 22:36:00:000	 _o:9267.16    _h:9271.91    _l:9264.33    _c:9265.02    _v:170731.08909
+2. BCHUSDT	20-07-14 22:36:00:000	 _o:228.38     _h:228.38     _l:228.38     _c:228.38     _v:0.0       
+2. BNBUSDT	20-07-14 22:36:00:000	 _o:18.102     _h:18.11      _l:18.102     _c:18.11      _v:76490.89815
+3. BTCUSDT	20-07-14 22:37:00:000	 _o:9265.06    _h:9266.77    _l:9264.67    _c:9266.77    _v:71788.50975
+3. ETHUSDT	20-07-14 22:37:00:000	 _o:240.95     _h:240.95     _l:240.91     _c:240.95     _v:255296.08868
+3. BCHUSDT	20-07-14 22:37:00:000	 _o:228.38     _h:228.38     _l:228.38     _c:228.38     _v:0.0       
+3. BNBUSDT	20-07-14 22:37:00:000	 _o:18.109     _h:18.11      _l:18.107     _c:18.108     _v:16053.3105
+4. ETHUSDT	20-07-14 22:38:00:000	 _o:240.92     _h:240.92     _l:240.75     _c:240.88     _v:1546904.11922
+4. BTCUSDT	20-07-14 22:38:00:000	 _o:9264.84    _h:9271.91    _l:9262.81    _c:9271.86    _v:223071.06008
+4. BCHUSDT	20-07-14 22:38:00:000	 _o:228.38     _h:228.38     _l:228.38     _c:228.38     _v:0.0       
+4. BNBUSDT	20-07-14 22:38:00:000	 _o:18.106     _h:18.106     _l:18.068     _c:18.088     _v:41849.4888
